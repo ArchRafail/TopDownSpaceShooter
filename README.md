@@ -11,3 +11,7 @@ For full files, please, contact me directly.</br>
 There are 2 scenes in the game - Menu and Game.</br>
 On MenuScene locate 4 buttons: New Game, Control Elements, Credits and Quit.</br>
 GameScene shows player ship, enemies ships, informations with players health points and target to win game.</br>
+</br>
+To optimize the memory for the game there is realized pool for objects.</br>
+It means that objects Instantiate only once, on start of the scene.</br>
+In this game, player bullets, enemies bullets and enemies ship I use from the pool.</br>
